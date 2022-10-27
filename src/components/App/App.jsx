@@ -1,6 +1,6 @@
 import { Statistics } from '../Statistics';
 import { Component } from 'react';
-import { Button, Container, Li, List, Span, Title } from './App.styled';
+
 import { FeedbackOptions } from 'components/FeedbackOptions';
 import { Section } from 'components/Section';
 import { Notification } from "../Notification"

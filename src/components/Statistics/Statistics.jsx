@@ -1,4 +1,4 @@
-import { Title, Span } from "./Statistics.styled"
+import { Span } from "./Statistics.styled"
 
 import React from 'react'
 import PropTypes from 'prop-types'
