@@ -37,7 +37,7 @@ transition: all 3000ms linear;
 
 &:hover{
     transform: rotate(200deg);
-    animation: 250ms linear infinite ${breatheAnimation}
+    animation: 2000ms linear infinite ${breatheAnimation}
 }
 `
 
