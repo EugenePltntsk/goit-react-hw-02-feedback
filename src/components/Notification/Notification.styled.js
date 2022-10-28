@@ -1,3 +1,3 @@
 import styled from 'styled-components';
 
-export const Notific = styled.span``
+export const Notific = styled.span``;
