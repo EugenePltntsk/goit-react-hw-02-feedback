@@ -11,7 +11,7 @@ export function Statistics( { good, neutral, bad, total, positive } ) {
     <Span>Neutral: {neutral}</Span>
     <Span>Bad: {bad}</Span>
     <Span>Total: {total}</Span>
-    <Span>Positive percentage: {positive || 0}%</Span>
+    <Span bold='bold'>Positive percentage: {positive || 0}%</Span>
     </>
   )
 }

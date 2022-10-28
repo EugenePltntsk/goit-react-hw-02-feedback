@@ -4,6 +4,7 @@ import { Component } from 'react';
 import { FeedbackOptions } from 'components/FeedbackOptions';
 import { Section } from 'components/Section';
 import { Notification } from "../Notification"
+import { Wrapper } from './App.styled';
 
 export class App extends Component {
   state = {
@@ -50,7 +51,7 @@ export class App extends Component {
   };
   render() {
     return (
-      <>
+      <Wrapper>
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={Object.keys(this.state)}
@@ -66,7 +67,7 @@ export class App extends Component {
             positive={this.countPositiveFeedbackPercentage()}
           /> : <Notification message="There is no feedback"/>}
         </Section>
-      </>
+      </Wrapper>
     );
   }
 }
