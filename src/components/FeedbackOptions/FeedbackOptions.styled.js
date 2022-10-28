@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import image from "../../images/pngwing.com.png"
 import { keyframes } from 'styled-components'
-import { hover } from '@testing-library/user-event/dist/hover';
+
 
 const breatheAnimation = keyframes`
  0% { opacity: 1}
